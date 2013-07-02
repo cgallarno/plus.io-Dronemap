@@ -5,7 +5,7 @@ html, body{
 
 .mb-page{
 	/*position: relative;/* fixes page placement issue */
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 }
 
 .mb-modal{
