@@ -35,12 +35,12 @@
 	 */
 	"routes" : [
 		{
-			"path" : "/home",
+			"path" : "/strikes",
 			"template" : "home",
 			"controller" : "HomeCrtl"
 		},
 		{
-			"otherwise" : "/home"
+			"otherwise" : "/strikes"
 		}
 	]
 }
