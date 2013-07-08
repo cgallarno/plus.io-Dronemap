@@ -1,10 +1,10 @@
 'use strict';
 
-var api = 'http://api.dronestre.am/data';
+var api = 'http://api.dronestre.am/data?callback=JSON_CALLBACK';
 $app.controller('HomeCrtl', function ($scope, $http, plus) {
   // defaulting the time on Angular's model variable.
   $scope.years = [];
-  $http.get(api).then(function(rtn){
+  $http.jsonp(api).then(function(rtn){
   	//console.log(data);
 
   	// create a map in the "map" div, set the view to a given place and zoom
